@@ -1,3 +1,22 @@
+@media only screen and (max-width: 600px) {
+    div.div_flex_responsive_small, div.div_flex_responsive{
+        display: block;
+    }
+    div.ancho_20{width: auto;}
+    div.ancho_30{width: auto;}
+    div.ancho_50{width: auto}
+    div.ancho_60{width: auto}
+    div.ancho_70{width: auto}
+}   
+ @media only screen and (min-width: 600px) and (max-width:768px) {
+      div.div_flex_responsive , div{
+          display: block;
+      }
+      div.ancho_70{width: auto}
+      div.ancho_30{width: auto}  
+}
+
+
 .clr_negro{background: black;}
 .clr_azul{background: blue;}
 .clr_azul_claro{background: lightblue;}
@@ -30,7 +49,7 @@ div{
     padding: 10px;    
 }
 
-.div_flex {
+.div_flex ,.div_flex_responsive{
     display: flex;
     flex-direction: row;
 }
