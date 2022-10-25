@@ -18,6 +18,12 @@
     }
     div.img_menuitem{margin: unset;}
     .topbar_menu{margin: initial;}
+    div.div_left{
+        margin:auto auto 20px auto;
+        width: auto;
+    }
+    div.articulo_texto{column-count: 1;}
+    
 }   
  @media only screen and (min-width: 600px) and (max-width:768px) {
       div.div_flex_responsive , div{
@@ -25,6 +31,15 @@
       }
       div.ancho_70{width: auto;}
       div.ancho_30{width: auto;}  
+      p#h2_header {
+        font-size: 20pt;
+        margin: 100px 10px 10px 10px;
+        padding: 60px 15px 0 15px;
+    }  
+    div.div_left{
+        margin:auto auto 20px auto;
+        width: auto;
+    }    
 }
 
 
@@ -56,7 +71,6 @@ body{
 }
 
 div{
-    margin: 10px;
     padding: 10px;    
 }
 
@@ -66,7 +80,7 @@ div{
 }
 
 .div_negra{
-    background: black;
+    background: grey;
     margin-bottom: 20px;
 }
 
@@ -156,4 +170,64 @@ div{
     padding: 50px;
     vertical-align: baseline;
     animation: ampliar 2s ease-in ;
+}
+
+.div_articulo{
+    height: 100%;    
+    margin: 0;
+    padding: 0px;
+    border: 5pt solid grey;
+}
+
+.articulo_img{
+
+    height: 200px;
+    background-repeat: round;
+    display: flex;
+    align-items: flex-end;
+    color:orange;
+    /* font-weight: bold; */
+}
+
+.articulo_fecha{
+    padding-bottom: 0px;
+}
+
+.articulo_titulo{
+    color:white;
+    background-color: violet;
+}
+
+.articulo_texto{
+    column-count: 2;
+}
+
+#articulo_img1{
+    background-image: url("../images/sakura.jpg");
+}
+#articulo_img2{
+    background-image: url("../images/comida.jpg");
+}
+#articulo_img3{
+    background-image: url("../images/fuji.jpg");
+}
+#articulo_img4{
+    background-image: url("../images/noche.jpg");
+}
+
+.div_left{
+    margin-bottom: 20px;;
+    margin: 0px 0px 20px 10px;
+    width: 30%;
+}
+
+#div_footer{
+    background-color: gray;
+    margin:0;
+    padding: 0px 15px 0px 15px;
+}
+#footer{
+    text-align: center;
+    padding: 20px;
+    margin:0px;
 }
