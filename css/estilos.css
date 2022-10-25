@@ -1,0 +1,41 @@
+.clr_negro{background: black;}
+.clr_azul{background: blue;}
+.clr_azul_claro{background: lightblue;}
+.clr_naranja{background: orange;}
+.clr_rojo{background: red;}
+.clr_gris{background:grey;}
+.clr_amarillo{background: yellow;}
+.clr_amarillo_claro{background: lightyellow;}
+.clr_gris_claro{background-color: lightgray;}
+
+
+.ancho_20{width: 20%;}
+.ancho_30{width: 30%;}
+.ancho_50{width: 50%;}
+.ancho_60{width: 60%;}
+.ancho_70{width: 70%;}
+.ancho_85{width: 85%;}
+.ancho_100{width: 100%;}
+
+.no_padding{padding: 0px;}
+
+body{
+    margin: 20px;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div{
+    margin: 10px;
+    padding: 10px;    
+}
+
+.div_flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.div_negra{
+    background: black;
+    margin-bottom: 20px;
+}
