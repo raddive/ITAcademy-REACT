@@ -9,6 +9,15 @@
     div.ancho_70{width: auto;}
     div.ancho_100{width: auto;}
     div.no_padding{padding: 5px;}
+
+    div#div_header{background-image:url("../images/header_phone.jpg");}
+    p#h2_header {
+        font-size: 15pt;
+        margin: 10px;
+        padding: 40px 5px 0 5px;
+    }
+    div.img_menuitem{margin: unset;}
+    .topbar_menu{margin: initial;}
 }   
  @media only screen and (min-width: 600px) and (max-width:768px) {
       div.div_flex_responsive , div{
@@ -59,4 +68,92 @@ div{
 .div_negra{
     background: black;
     margin-bottom: 20px;
+}
+
+#div_header{
+    background-image:url("../images/header_small.jpg");
+    background-repeat: round;
+    height: 450px;
+    margin:10px 0px 10px 0px;
+}
+
+.div_topbar{
+    justify-content: space-around;
+}
+.div_topbaritem{
+    margin:auto;
+    padding: 0px;
+    display: flex;
+}
+.div_topbaritem:hover{
+    color:orange;
+}
+
+
+.img_menuitem  {
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    margin: auto;
+    padding-right: 20px;
+}
+#img_menuitem_home{
+    background-image: url(../images/menu_home.png);
+} 
+#img_menuitem_home:hover{
+    background-image: url(../images/menu_home_hover.png);
+}
+#img_menuitem_route{
+    background-image: url(../images/menu_route.png);
+} 
+#img_menuitem_route:hover{
+    background-image: url(../images/menu_route_hover.png);
+}
+#img_menuitem_plane{
+    background-image: url(../images/menu_plane.png);
+} 
+#img_menuitem_plane:hover{
+    background-image: url(../images/menu_plane_hover.png);
+}
+#img_menuitem_hotel{
+    background-image: url(../images/menu_hotel.png);
+} 
+#img_menuitem_hotel:hover{
+    background-image: url(../images/menu_hotel_hover.png);
+}
+#img_menuitem_mail{
+    background-image: url(../images/menu_mail.png);
+} 
+#img_menuitem_mail:hover{
+    background-image: url(../images/menu_mail_hover.png);
+}
+#img_menuitem_twitter{
+    background-image: url(../images/menu_twitter.png);
+} 
+#img_menuitem_twitter:hover{
+    background-image: url(../images/menu_twitter_hover.png);
+}
+#img_menuitem_facebook{
+    background-image: url(../images/menu_facebook.png);
+} 
+#img_menuitem_facebook:hover{
+    background-image: url(../images/menu_facebook_hover.png);
+}
+
+
+#img_logo{
+    width: 100px;
+    animation: ampliar 2s ease-in
+}
+
+#h2_header{
+    font-size: 30pt;
+    color: orange;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    /* border:1pt solid black; */
+    background-color: rgba(200, 200, 200, 0.2);
+    margin: 190px 10px 0px 10px;
+    padding: 50px;
+    vertical-align: baseline;
+    animation: ampliar 2s ease-in ;
 }
