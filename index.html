@@ -3,7 +3,7 @@
 <html lang="es-es">
     <head>
         <title>ITAcademy-REACT Sprint01 Ejercicio2</title>
-        <link rel="stylesheet" href="./css/estilos.css" />
+        <link rel="stylesheet" href="./css/estilos_grid_layout.css" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="UTF-8">
     </head>
@@ -40,47 +40,41 @@
             </div>
                 <p id="h2_header">"Disfruta de la experiencia de otros viajeros"</p>
             </div>
-            <div class="div_flex_responsive no_margin no_padding">
-                <div class="div_negra ancho_70 div_flex_responsive">
-                    <div class="clr_gris_claro no_padding no_margin">
-                        <div class="div_flex_responsive_small no_padding">
-                            <div class="div_articulo ancho_50">
-                                <div class="articulo_img" id="articulo_img1">
-                                    <p class="articulo_fecha">21 de octubre  de 2022</p>
-                                </div>
-                                <div class="articulo_titulo">CULTURA</div>
-                                <div class="articulo_texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-                            </div>
-                            <div class="div_articulo ancho_50">
-                                <div class="articulo_img" id="articulo_img2">
-                                    <p class="articulo_fecha">22 de octubre  de 2022</p>
-                                </div>
-                                <div class="articulo_titulo">GASTRONOMÍA</div>
-                                <div class="articulo_texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-                            </div>
+            <div class="grid_main div_flex_responsive no_padding">
+                <div class="grid_main_left div_flex_responsive">
+                    <div class="item1 div_articulo ">
+                        <div class="articulo_img" id="articulo_img1">
+                            <p class="articulo_fecha">21 de octubre  de 2022</p>
                         </div>
-                        <div class="div_flex_responsive_small no_padding">
-                            <div class="div_articulo ancho_50">
-                                <div class="articulo_img" id="articulo_img3">
-                                    <p class="articulo_fecha">21 de octubre  de 2022</p>
-                                </div>
-                                <div class="articulo_titulo">TURISMO</div>
-                                <div class="articulo_texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-                            </div>
-                            <div class="div_articulo ancho_50">
-                                <div class="articulo_img" id="articulo_img4">
-                                    <p class="articulo_fecha">22 de octubre  de 2022</p>
-                                </div>
-                                <div class="articulo_titulo">VIDA NOCTURNA</div>
-                                <div class="articulo_texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-                            </div> 
+                        <div class="articulo_titulo">CULTURA</div>
+                        <div class="articulo_texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                    </div>
+                    <div class="item2 div_articulo ">
+                        <div class="articulo_img" id="articulo_img2">
+                            <p class="articulo_fecha">22 de octubre  de 2022</p>
                         </div>
-                        <div class="div_flex no_padding no margin">
-                            <div class="clr_gris ancho_100 no_margin">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div> 
+                        <div class="articulo_titulo">GASTRONOMÍA</div>
+                        <div class="articulo_texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                    </div>
+                    <div class="item3 div_articulo ">
+                        <div class="articulo_img" id="articulo_img3">
+                            <p class="articulo_fecha">21 de octubre  de 2022</p>
                         </div>
+                        <div class="articulo_titulo">TURISMO</div>
+                        <div class="articulo_texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                    </div>
+                        <div class="item4 div_articulo">
+                        <div class="articulo_img" id="articulo_img4">
+                            <p class="articulo_fecha">22 de octubre  de 2022</p>
+                        </div>
+                        <div class="articulo_titulo">VIDA NOCTURNA</div>
+                        <div class="articulo_texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                    </div> 
+                    <div class="item5 div_flex no_padding no margin">
+                        <div class="clr_gris no_margin">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div> 
                     </div>
                 </div>
-                <div class="div_left clr_gris">
+                <div class="item_main2 no_margin clr_gris">
                     <h2>TITULO</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> 
                 </div>
