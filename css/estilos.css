@@ -1,19 +1,21 @@
 @media only screen and (max-width: 600px) {
-    div.div_flex_responsive_small, div.div_flex_responsive{
+    div.div_flex_responsive_small, div.div_flex_responsive, div.div_flex{
         display: block;
     }
     div.ancho_20{width: auto;}
     div.ancho_30{width: auto;}
-    div.ancho_50{width: auto}
-    div.ancho_60{width: auto}
-    div.ancho_70{width: auto}
+    div.ancho_50{width: auto;}
+    div.ancho_60{width: auto;}
+    div.ancho_70{width: auto;}
+    div.ancho_100{width: auto;}
+    div.no_padding{padding: 5px;}
 }   
  @media only screen and (min-width: 600px) and (max-width:768px) {
       div.div_flex_responsive , div{
           display: block;
       }
-      div.ancho_70{width: auto}
-      div.ancho_30{width: auto}  
+      div.ancho_70{width: auto;}
+      div.ancho_30{width: auto;}  
 }
 
 
@@ -49,7 +51,7 @@ div{
     padding: 10px;    
 }
 
-.div_flex ,.div_flex_responsive{
+.div_flex ,.div_flex_responsive, .div_flex_responsive_small{
     display: flex;
     flex-direction: row;
 }
